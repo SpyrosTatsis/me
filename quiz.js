@@ -10,24 +10,7 @@ const questions = [
     { type: "text", question: "Are you a neurodivergent person?" },
     { type: "text", question: "Do you know a fella named John Doe?" },
     { type: "text", question: "When can you justify taking another humans life?" },
-    { type: "image", question: "Do you feel any familiarity with is image?", media: "https://i.pinimg.com/736x/45/8a/6a/458a6a1a8fd0ae691faa5b173bc5a48c.jpg" },
-    { type: "text", question: "At what age were you exposed to the internet?" },
-    { type: "text", question: "Should a small intelligent group of people manage a huge group of less intelligent people?" },
-    { type: "image", question: "What is depicted in this image?", media: "https://i.pinimg.com/736x/1b/53/2d/1b532d0581f27a18f7edd7a796cd60b5.jpg" },
-    { type: "text", question: "When you are walking outside, what do you feel about the people around you?" },
-    { type: "text", question: "Do you think these people are on the same intelligence level as you?" },
-    { type: "text", question: "Do you think these people are in control of their lives?" },
-    { type: "text", question: "Do you think these people are real?" },
-    { type: "text", question: "Do you think these people have souls?" },
-    { type: "text", question: "Do you consider these people as fellow humans?" },
-    { type: "text", question: "What name do you go by?" },
-    { type: "text", question: "Any way to contact you?" },
-    { type: "text", question: "Do you believe in a free market?" },
-    { type: "video", question: "Look how good of a dancer this cat is", media: "cat.mp4" },
-    { type: "text", question: "Is it worth trying to fight unbeatable system?" },
-    { type: "text", question: "Should a person just exploit the opportunities given to him by this system?" },
-    { type: "text", question: "Should a person try to fit in?" },
-    { type: "text", question: "Is it weird to fit in or to not fit in?" }
+
     
 
 ];
@@ -104,4 +87,5 @@ document.getElementById("nextBtn").addEventListener("click", async () => {
         }
 
     }
+
 });
