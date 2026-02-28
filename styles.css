@@ -183,3 +183,29 @@ img {
 #progressBar::-webkit-slider-thumb:hover {
     box-shadow: 0 0 15px #41ff3a;
 }
+
+#quizBtn {
+    font-family: Orbitron, sans-serif;
+    font-size: 16px;
+    background: black;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 350px;
+}
+
+#quizBtn:hover {
+    background: #41ff3a;
+    color: black;
+    box-shadow: 0 0 60px rgb(0, 0, 0);
+    border-color: black;
+}
+#quiztitle{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: "Anonymous Pro", monospace;
+    text-align: center;
+    margin-top: -75px;
+}
